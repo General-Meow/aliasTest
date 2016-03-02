@@ -9,6 +9,12 @@ public class Cat extends Animal {
         this.name = name;
     }
 
+    public void decorateAnInheritedMethod()
+    {
+        System.out.println("I'm " + name + " and im warming up my hands");
+        doSomethingWithMyPrivates();
+    }
+
     @Override
     public String toString() {
         return "Cat{" +

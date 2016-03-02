@@ -14,7 +14,7 @@
 
     <bean id="runner" class="com.pandemic.beans.bootstrap.Runner">
         <property name="animal1" ref="animal"/>
-        <property name="animal2" ref="cat"/>
+        <property name="cat" ref="cat"/>
     </bean>
 
     <bean id="animal" class="com.pandemic.beans.Animal">
